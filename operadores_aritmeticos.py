@@ -41,7 +41,7 @@ print (f"El resultado de la operacion es: {resultado_5}")
 ejercicio_s =  (a*(a+b)/b) *(a-b) +(a*b) - (a/b)
 print (f"El resultado del ejercicio es: {ejercicio_s}")
 
-# librerias de matematicas
+# librerias de matematicas 
 import math
 
 
@@ -50,7 +50,7 @@ print(math.e)
 print(math.sqrt(16))
 
 
-import random
+import random # LIBRERIA PARA GENERAR NUMEROS ALEATORIOS
 
 random.random()
 numero_aleatorio = random.randint(1, 10)

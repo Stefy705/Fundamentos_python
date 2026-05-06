@@ -12,18 +12,25 @@ tipoOperacion = input("Elija la operacion que quiere realizar: \
 suma = valor_uno + valor_dos
 resta = valor_uno - valor_dos
 multiplicacion = valor_uno * valor_dos
-division = valor_uno / valor_dos
+
 
 
 
 
 if tipoOperacion == "1":
     print("El resultado de la suma es:", suma)
-if tipoOperacion == "2":
+elif tipoOperacion == "2":
     print("El resultado  de la resta es :", resta)
-
-if tipoOperacion == "3":
+elif tipoOperacion == "3":
     print("El resultado de la multiplicacion es:", multiplicacion)
-if tipoOperacion == "4":
-    print("El resultado de la division es:", division)
+elif tipoOperacion == "4":
+        if valor_dos != 0:
+            division = valor_uno / valor_dos
+            print("El resultado de la division es:", division)
+        else:
+            print("Error: No se puede dividir por cero.")
+else:
+    print("Operacion no valida")
+    
+
 
