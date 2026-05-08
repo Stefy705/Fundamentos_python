@@ -13,7 +13,7 @@ estatura_m = float(input("Ingrese su altura en metros: "))
 imc = peso_kg / (estatura_m ** 2)
 if (peso_kg >= 0 and estatura_m >= 0):
     print("\n----🔸Calculando su indice de masa corporal🔸...")
-    print(f"\n🗒️Su indice de masa corporal es: {round(imc, 2)} kg/m² \n")
+    print(f"\n🗒️ Su indice de masa corporal es: {round(imc, 2)} kg/m² \n")
         
     if imc < 18.5:
             print("Usted tiene bajo peso🫥, necesita alimentarse mejor")
